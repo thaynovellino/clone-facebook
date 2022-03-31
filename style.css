@@ -1,0 +1,131 @@
+body {
+    background-color: #edf0f5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-principal {
+    background-color: #edf0f5;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+}
+
+#logomarca {
+    height: 106px;
+    margin-left: 12%;
+}
+
+.paragrafo {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 16%;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+#formulario {
+    font-family: inherit
+    background-color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="password"] {
+    border: solid 1px #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 8px;
+    width: 312px;
+    height: 32px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-bottom: 11px;
+    border-radius: 6px;
+}
+
+button[type="submit"] {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: white;
+    cursor: pointer;
+}
+
+#esqueceu {
+    width: 332px;
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#esqueceu:hover {
+    text-decoration: underline;
+}
+
+#criar {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #42B72A;
+    border: none;
+    border-radius: 6px;
+    height: 42px;
+    width: 180px;
+    margin-left: 22%;
+    cursor: pointer;
+}
+
+ .texto{
+    color: #1C1E21;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+    margin-right: 11%;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
