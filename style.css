@@ -128,4 +128,72 @@ a:hover {
     text-decoration: underline;
 }
 
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    
+}
 
+.div-indiomas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #737373;
+    margin-left: 20%;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 59%;
+    height: 25px;
+    border-bottom: #ccd0d5 solid 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+#mais {
+    background-color: #f5f6f7;
+    border: #ccd0d5 1px solid;
+    color: #4b4f56;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    
+    
+}
+
+.categorias {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #737373;
+    margin-left: 17%;
+    margin-top: 5px;
+    width: 989px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#atributo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #737373;
+    margin-left: 20%;
+}
